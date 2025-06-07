@@ -1,0 +1,35 @@
+# 🃏 Console Blackjack Game in C#
+
+This is a simple console-based Blackjack game written in **C#**, where you play against a virtual dealer. The game simulates a classic round of Blackjack and uses basic programming concepts such as:
+
+- Variables and conditionals
+- Lists and dictionaries
+- Random number generation
+- Console input/output
+
+## 🎮 How It Works
+
+- You start with $400 in your wallet.
+- Each round costs $200 to play.
+- Both the player and the dealer draw two cards.
+- The player can choose to draw an extra card.
+- The dealer may randomly draw a third card.
+- Ace values are automatically adjusted if the total exceeds 21.
+- The winner is determined based on classic Blackjack rules.
+
+## 🧠 What You'll Learn
+
+- How to use `Dictionary<string, int>` in C#
+- Basic game logic and flow control
+- Handling user input with `Console.ReadLine()`
+- Applying randomness using `Random.Next()`
+
+## ✅ Requirements
+
+- .NET SDK (e.g., .NET 6 or newer)
+- A C# compiler or IDE (like Visual Studio or VS Code)
+
+## 🚀 Run the Game
+
+```bash
+dotnet run
