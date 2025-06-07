@@ -1,0 +1,14 @@
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\bin\Debug\net8.0\Black_Jack.exe
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\bin\Debug\net8.0\Black_Jack.deps.json
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\bin\Debug\net8.0\Black_Jack.runtimeconfig.json
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\bin\Debug\net8.0\Black_Jack.dll
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\bin\Debug\net8.0\Black_Jack.pdb
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.AssemblyInfo.cs
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.dll
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\refint\Black_Jack.dll
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.pdb
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\Black_Jack.genruntimeconfig.cache
+C:\Users\danie\source\repos\Black_Jack\Black_Jack\obj\Debug\net8.0\ref\Black_Jack.dll
