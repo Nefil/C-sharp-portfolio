@@ -1,0 +1,80 @@
+# MyQuizApp
+
+A simple C# console application for running multiple-choice quizzes.
+
+## Features
+
+- Presents a series of questions to the user with multiple possible answers.
+- Accepts user input and checks for the correct answer.
+- Displays feedback for correct and incorrect answers.
+- Shows the total score and a performance message at the end of the quiz.
+- Colorful and visually organized console output for clarity.
+
+## How to Use
+
+1. **Clone or Download the Repository**
+    ```
+    git clone https://github.com/yourusername/MyQuizApp.git
+    ```
+    Or download the ZIP and extract.
+
+2. **Open the Project**
+    - Open the solution in Visual Studio or your favorite C# IDE.
+
+3. **Add Questions**
+    - In your `Program.cs`, create an array of `Question` objects, for example:
+      ```csharp
+      Question[] questions = new Question[]
+      {
+          new Question("What is the capital of France?", new string[] {"Berlin", "London", "Paris", "Rome"}, 2),
+          new Question("Which planet is known as the Red Planet?", new string[] {"Earth", "Mars", "Jupiter", "Saturn"}, 1),
+          // Add more questions here
+      };
+      ```
+    - Create a `Quiz` object with your questions:
+      ```csharp
+      Quiz quiz = new Quiz(questions);
+      quiz.StartQuiz();
+      ```
+
+4. **Run the Application**
+    - Build and run the project.
+    - Answer the questions by entering the number corresponding to your chosen answer.
+
+## Example
+
+```
+Welcome to the Quiz!
+Question 1:
+╔═════════════════════════════════════════════════════════════════════════╗
+║                                 Question                                ║
+╚═════════════════════════════════════════════════════════════════════════╝
+What is the capital of France?
+   1. Berlin
+   2. London
+   3. Paris
+   4. Rome
+Your answer (number): 3
+Correct!
+...
+╔═════════════════════════════════════════════════════════════════════════╗
+║                                 Results                                 ║
+╚═════════════════════════════════════════════════════════════════════════╝
+Quiz finished. Your score is: 2 out of 2
+Excellent Work!
+```
+
+## Customization
+
+- Add or modify questions in the array.
+- Change the number of possible answers per question (update `GetUserChoice` validation if you do).
+- Adapt result messages and colors as desired.
+
+## Requirements
+
+- .NET Framework (any version supporting C# 6.0 or later)
+- Console application
+
+## License
+
+This project is licensed under the MIT License.
