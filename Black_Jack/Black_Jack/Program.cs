@@ -34,7 +34,7 @@ class Program
                 List<KeyValuePair<string, int>> playerHand = new List<KeyValuePair<string, int>>();
                 List<KeyValuePair<string, int>> dealerHand = new List<KeyValuePair<string, int>>();
 
-                // Rozdanie początkowe
+                // Initial deal
                 for (int i = 0; i < 2; i++)
                 {
                     var playerCard = cardValues.ElementAt(random.Next(cardValues.Count));
@@ -44,7 +44,7 @@ class Program
                     dealerHand.Add(dealerCard);
                 }
 
-                // Sprawdzenie blackjacka
+                // Check for blackjack
                 int playerSum = SumHand(playerHand);
                 int dealerSum = SumHand(dealerHand);
 
@@ -67,7 +67,7 @@ class Program
                     else if (playerBlackjack)
                     {
                         Console.WriteLine("Blackjack! You win and gain 300$.");
-                        wallet += 500; // 200$ zwrot stawki + 300$ wygrana
+                        wallet += 500; // 200$ stake refund + 300$ winnings
                     }
                     else
                     {
@@ -78,7 +78,7 @@ class Program
                     continue;
                 }
 
-                // Dobieranie przez gracza
+                // Player's turn
                 bool playerTurn = true;
                 while (playerTurn)
                 {
@@ -114,7 +114,7 @@ class Program
                 FixAces(playerHand);
                 playerSum = SumHand(playerHand);
 
-                // Dobieranie przez dealera (do minimum 17)
+                // Dealer's turn (draw until minimum 17)
                 FixAces(dealerHand);
                 dealerSum = SumHand(dealerHand);
                 while (dealerSum < 17)
@@ -125,14 +125,14 @@ class Program
                     dealerSum = SumHand(dealerHand);
                 }
 
-                // Pokazanie rąk
+                // Show hands
                 Console.WriteLine($"\nYour total: {playerSum}");
                 Console.WriteLine("Dealer's hand:");
                 foreach (var card in dealerHand)
                     Console.WriteLine($"- {card.Key}");
                 Console.WriteLine($"Dealer's total: {dealerSum}");
 
-                // Wynik gry
+                // Determine the result
                 if (playerSum > 21)
                 {
                     Console.WriteLine("You busted! You lose 200$.");
