@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\bin\Debug\net8.0\MyQuizApp.exe
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\bin\Debug\net8.0\MyQuizApp.deps.json
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\bin\Debug\net8.0\MyQuizApp.runtimeconfig.json
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\bin\Debug\net8.0\MyQuizApp.dll
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\bin\Debug\net8.0\MyQuizApp.pdb
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.dll
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\refint\MyQuizApp.dll
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.pdb
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\MyQuizApp.genruntimeconfig.cache
+C:\Users\Admin\source\repos\MyQuizApp\MyQuizApp\obj\Debug\net8.0\ref\MyQuizApp.dll
