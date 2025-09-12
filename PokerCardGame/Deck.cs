@@ -42,14 +42,32 @@ namespace PokerCardGame
         }
 
         public void DealToTable()
-        {
-            // Używamy statycznej metody AddCard do dodania 3 kart na stół
-            AddCard(cards, cards, Table, 3);
-            
+        {      
+            for (int i = 0; i < 3; i++)
+            {   
+                Table.Add(cards[0]);
+                cards.RemoveAt(0);
+            }
+
             Console.WriteLine("Cards on table:");
             foreach (Card card in Table)
             {
-                Console.WriteLine($"{card.rank} of {card.suit}");
+                // Zamień wartość liczbową na nazwę karty
+                string rankName = GetCardRankName(card.rank);
+                Console.WriteLine($"{rankName} of {card.suit}");
+            }
+        }
+
+        // Pomocnicza metoda do konwersji wartości na nazwy kart
+        private string GetCardRankName(int rank)
+        {
+            switch (rank)
+            {
+                case 14: return "AS";
+                case 13: return "King";
+                case 12: return "Queen";
+                case 11: return "Jack";
+                default: return rank.ToString();
             }
         }
 
